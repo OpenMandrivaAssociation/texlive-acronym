@@ -3,7 +3,7 @@ Version:	1.36
 Release:	1
 Summary:	Expand acronyms at least once
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive//macros/latex/contrib/acronym
+URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acronym
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.doc.tar.xz
@@ -29,11 +29,13 @@ package, which in turn requires that it runs under e-TeX.
     %_texmf_mktexlsr_post
 
 %preun
-    %_texmf_mktexlsr_preun
+    if [ $1 -eq 0 ]; then
+	%_texmf_mktexlsr_pre
+    fi
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mltexlsr_post
+	%_texmf_mktexlsr_post
     fi
 
 #-----------------------------------------------------------------------
