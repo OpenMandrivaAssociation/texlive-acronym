@@ -1,3 +1,9 @@
+# revision 19660
+# category Package
+# catalog-ctan /macros/latex/contrib/acronym
+# catalog-date 2010-09-10 01:16:09 +0200
+# catalog-license lppl
+# catalog-version 1.36
 Name:		texlive-acronym
 Version:	1.36
 Release:	1
@@ -47,6 +53,7 @@ package, which in turn requires that it runs under e-TeX.
 #- source
 %doc %{_texmfdistdir}/source/latex/acronym/acronym.dtx
 %doc %{_texmfdistdir}/source/latex/acronym/acronym.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ package, which in turn requires that it runs under e-TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
