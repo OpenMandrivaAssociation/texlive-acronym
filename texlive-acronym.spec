@@ -6,7 +6,7 @@
 # catalog-version 1.36
 Name:		texlive-acronym
 Version:	1.36
-Release:	1
+Release:	2
 Summary:	Expand acronyms at least once
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acronym
