@@ -1,12 +1,12 @@
-# revision 19660
+# revision 27590
 # category Package
 # catalog-ctan /macros/latex/contrib/acronym
-# catalog-date 2010-09-10 01:16:09 +0200
+# catalog-date 2012-09-04 10:33:10 +0200
 # catalog-license lppl
-# catalog-version 1.36
+# catalog-version 1.37
 Name:		texlive-acronym
-Version:	1.36
-Release:	2
+Version:	1.37
+Release:	1
 Summary:	Expand acronyms at least once
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acronym
