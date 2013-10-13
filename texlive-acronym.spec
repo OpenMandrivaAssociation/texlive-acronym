@@ -1,12 +1,12 @@
-# revision 19660
+# revision 28114
 # category Package
 # catalog-ctan /macros/latex/contrib/acronym
-# catalog-date 2010-09-10 01:16:09 +0200
+# catalog-date 2012-09-04 10:33:10 +0200
 # catalog-license lppl
-# catalog-version 1.36
+# catalog-version 1.37
 Name:		texlive-acronym
-Version:	1.36
-Release:	2
+Version:	1.37
+Release:	1
 Summary:	Expand acronyms at least once
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acronym
@@ -53,18 +53,3 @@ package, which in turn requires that it runs under e-TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.36-2
-+ Revision: 749081
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.36-1
-+ Revision: 717789
-- texlive-acronym
-- texlive-acronym
-- texlive-acronym
-- texlive-acronym
-- texlive-acronym
-
