@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 1.37
 Name:		texlive-acronym
-Version:	1.37
-Release:	9
+Version:	1.41
+Release:	1
 Summary:	Expand acronyms at least once
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acronym
