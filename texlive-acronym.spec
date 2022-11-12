@@ -31,6 +31,7 @@ fi
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/acronym/acronym.sty
+%doc %{_texmfdistdir}/doc/latex/acronym/CHANGES
 %doc %{_texmfdistdir}/doc/latex/acronym/README
 %doc %{_texmfdistdir}/doc/latex/acronym/acronym.pdf
 %doc %{_texmfdistdir}/doc/latex/acronym/acrotest.tex
