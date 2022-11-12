@@ -5,9 +5,9 @@ Summary:	Expand acronyms at least once
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acronym
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.r54758.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.doc.r54758.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.source.r54758.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
