@@ -1,19 +1,13 @@
-# revision 28114
-# category Package
-# catalog-ctan /macros/latex/contrib/acronym
-# catalog-date 2012-09-04 10:33:10 +0200
-# catalog-license lppl
-# catalog-version 1.37
 Name:		texlive-acronym
-Version:	1.41
-Release:	2
+Version:	54758
+Release:	1
 Summary:	Expand acronyms at least once
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acronym
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.r54758.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.doc.r54758.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.source.r54758.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -27,12 +21,12 @@ compatible with pdf bookmarks. The package requires the suffix
 package, which in turn requires that it runs under e-TeX.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -46,7 +40,8 @@ package, which in turn requires that it runs under e-TeX.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
