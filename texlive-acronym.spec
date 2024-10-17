@@ -3,7 +3,7 @@ Version:	54758
 Release:	2
 Summary:	Expand acronyms at least once
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/acronym
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/acronym
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/acronym.doc.r%{version}.tar.xz
