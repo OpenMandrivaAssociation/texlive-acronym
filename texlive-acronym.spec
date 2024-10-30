@@ -1,6 +1,6 @@
 Name:		texlive-acronym
-Version:	54758
-Release:	2
+Version:	72324
+Release:	1
 Summary:	Expand acronyms at least once
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/acronym
