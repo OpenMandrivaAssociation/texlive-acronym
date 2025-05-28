@@ -1,5 +1,5 @@
 Name:		texlive-acronym
-Version:	72324
+Version:	73491
 Release:	1
 Summary:	Expand acronyms at least once
 Group:		Publishing
